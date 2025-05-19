@@ -11,7 +11,7 @@ test('Contact Us Form Submission', async ({ page }) => {
     'rashesster2@yopmail.com',
     'I want to know more about your product',
     'I want to know more about your product',
-    '/Users/Rawsheydarh/Downloads/Agile Software Development.pdf'
+    './test-data/Agile Software Development.pdf'
   );
   await contactUsPage.handleSubmitAndAcceptDialog();
   await contactUsPage.verifySuccessMessage();
